@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SNTP",
+  "version": "1.0.0",
+  "description": "A very simple and minimalistic new tab page, that sucks less",
+  "icons": {
+
+  },
+  "chrome_url_overrides" : {
+    "newtab":"newtab.html"
+  },
+  "action": {
+    "default_popup": "./index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

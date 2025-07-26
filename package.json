@@ -1,0 +1,19 @@
+{
+  "name": "sucklessnewtabpage",
+  "version": "1.0.0",
+  "description": "A new tab page for chromium browsers (or firefox if mozilla starts adding bs to the new tab page) that sucks less",
+  "license": "MIT",
+  "author": "ThePowerdinoDeluxe990",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.1.1"
+  }
+}
