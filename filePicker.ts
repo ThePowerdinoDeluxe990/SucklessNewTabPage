@@ -19,13 +19,10 @@ inputFilePicker.onchange = function (){
     if(file){
         reader.readAsDataURL(file);
         console.log(fileSelected);
-
     }
-
 }
 
 submitButton.onclick = () => {
-    console.log(fileSelected);
     chrome.storage.local.clear().then(r => console.log(r));
     chrome.storage.local.set({wallpaperValue:fileSelected}).then(() => console.log("Done!"));
     chrome.storage.local.get("wallpaperValue").then((data =>{
