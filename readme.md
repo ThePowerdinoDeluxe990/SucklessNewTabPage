@@ -7,12 +7,13 @@ I made this extension because,the other new tab pages extensions are closed sour
 ### SNTP is:
 Minimal by design (without ui elements that I don't use 99% of time).
 Fixes wallpaper image issues.
-Does one thing, very well
+This extension doesn't seek to do alot of things, It tries to do one thing, pretty well.
+
 
 ### TODO
-add color backgrounds
-add a better UI for the wallpaper picker
-add icons
+* add color backgrounds
+* add a better UI for the wallpaper picker
+* add icons
 
 
  
