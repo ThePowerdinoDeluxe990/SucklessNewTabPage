@@ -5,9 +5,9 @@ I made this extension because, besides Chromium (Chrome) and firefox, the other 
 And I didn't really like other new tab pages extensions, because they are closed source or have a lot of ui elements and options that I never use.
 
 ### SNTP is:
-Minimal by design (without ui elements that I don't use 99% of time).
-Fixes wallpaper image issues.
-This extension doesn't seek to do a lot of things, It tries to do one thing, pretty well.
+* Minimal by design (without ui elements that I don't use 99% of time).
+* Fixes wallpaper image issues.
+* This extension doesn't seek to do a lot of things, It tries to do one thing, pretty well.
 
 
 ### TODO
