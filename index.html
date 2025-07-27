@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello world</title>
+    <title>Wallpaper Selector</title>
 </head>
 <body>
     <input type ="file" id="wallpaper" name="wallpaper"
            accept="image/*">
+
+    <label for="position_select">Choose a position for your wallpaper</label>
+    <select name="wallpaper_position" id="position_select">
+        <option value="center">center</option>
+        <option value="top">top</option>
+        <option value="left">left</option>
+        <option value="right">right</option>
+        <option value="bottom">bottom</option>
+    </select>
+
     <button id="submit">
         Submit Wallpaper
     </button>
-    <script type="module" defer src="filePicker.js">
+    <script type="module" defer src="./scripts/filePicker.js">
 
     </script>
 </body>
